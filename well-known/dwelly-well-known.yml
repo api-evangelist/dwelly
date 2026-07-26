@@ -1,0 +1,22 @@
+generated: '2026-07-20'
+method: searched
+source: live probe of https://www.dwelly.group/.well-known/
+host: https://www.dwelly.group
+notes: >-
+  Every /.well-known/ discovery document probed returned 404. Dwelly publishes no
+  well-known discovery surface, no security.txt and no OIDC/OAuth metadata. No
+  `WellKnown`, `SecurityTxt` or `APICatalog` pointer is wired into apis.yml because
+  nothing was found — this file is the audit record of the probe so re-runs are cheap.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404

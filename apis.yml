@@ -1,20 +1,96 @@
 aid: dwelly
 name: Dwelly
-description: Dwelly is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Dwelly (legal entity PROSPIRE TECHNOLOGIES LTD, also trading as Dwelly Group)
+  is a UK-based, AI-first lettings and property-management company founded in 2023 by Ilya
+  Drozdov (CEO), Dan Lifshits (CPO) and Dmitry Khanukov (CTO). Rather than selling software,
+  Dwelly grows by acquiring independent UK lettings agencies and succession-planning their
+  owners out, then running the acquired books on its own AI-powered operating platform. That
+  platform automates tenant find (self-service enquiry chat, virtual viewings, verified offers),
+  banking-grade tenant screening (KYC, Right to Rent, referencing), Direct Debit rent collection
+  with automatic reconciliation and arrears handling, maintenance and property management
+  workflows with centralised communications, and continuous lettings compliance. Dwelly is
+  backed by General Catalyst, Begin Capital and S16VC. As of this profile Dwelly publishes no
+  public API, developer portal, SDKs or technical documentation — the platform is operated
+  internally for its own and its acquired agencies'' portfolios.'
 url: https://raw.githubusercontent.com/api-evangelist/dwelly/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.dwelly.group/images/logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - general-catalyst
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
+x-legal-name: PROSPIRE TECHNOLOGIES LTD
+x-founded: '2023-07-10'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Real Estate
+- Property Management
+- Lettings
+- PropTech
+- Artificial Intelligence
+- Automation
+- United Kingdom
+- Mergers and Acquisitions
 apis: []
+common:
+- type: DomainSecurity
+  url: security/dwelly-domain-security.yml
+- type: LLMsTxt
+  name: Dwelly llms.txt
+  url: llms/dwelly-llms.txt
+- type: Website
+  name: Dwelly
+  url: https://www.dwelly.group/
+- type: About
+  name: About Dwelly
+  url: https://www.dwelly.group/about
+- type: Platform
+  name: Dwelly AI lettings platform
+  url: https://www.dwelly.group/platform
+- type: GitHubOrganization
+  name: Dwelly Group on GitHub
+  url: https://github.com/DwellyGroup
+- type: LinkedIn
+  name: Dwelly Group on LinkedIn
+  url: https://www.linkedin.com/company/dwellygroup/
+- type: Careers
+  name: Careers at Dwelly
+  url: https://www.dwelly.group/careers
+- type: TermsOfService
+  name: Terms of Use
+  url: https://dwelly.group/docs/tnc.pdf
+- type: PrivacyPolicy
+  name: Privacy Policy
+  url: https://dwelly.group/docs/priv.pdf
+- type: CookiePolicy
+  name: Cookie Policy
+  url: https://dwelly.group/docs/cookies.pdf
+- type: Crunchbase
+  name: Dwelly Group on Crunchbase
+  url: https://www.crunchbase.com/organization/dwelly-group
+- type: Investor
+  name: Dwelly on the General Catalyst portfolio
+  url: https://www.generalcatalyst.com/companies/dwelly
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
