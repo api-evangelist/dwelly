@@ -13,6 +13,17 @@ description: 'Dwelly (legal entity PROSPIRE TECHNOLOGIES LTD, also trading as Dw
   public API, developer portal, SDKs or technical documentation — the platform is operated
   internally for its own and its acquired agencies'' portfolios.'
 url: https://raw.githubusercontent.com/api-evangelist/dwelly/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
