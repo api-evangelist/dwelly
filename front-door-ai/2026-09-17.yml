@@ -1,0 +1,27 @@
+# Front Door AI Index — dwelly — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: dwelly
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.dwelly.group
+  final_host: www.dwelly.group
+  ownership: own
+  owner: dwelly
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 5
+  host_score: 5
+  density: 9.98
+  words: 501
+  tiers:
+    agentic: 0
+    core: 4
+    model: 1
+  ambiguous: 6
+  top_terms:
+    agent: 6
+    AI: 4
+    Anthropic: 1
