@@ -49,7 +49,7 @@ created: '2026-07-17'
 modified: '2026-07-20'
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Property Management
 - Lettings
 - PropTech
@@ -67,6 +67,7 @@ tags_raw:
 - Automation
 - United Kingdom
 - Mergers and Acquisitions
+- Real-Estate
 apis: []
 common:
 - type: DomainSecurity
