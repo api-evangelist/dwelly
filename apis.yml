@@ -46,7 +46,7 @@ x-legal-name: PROSPIRE TECHNOLOGIES LTD
 x-founded: '2023-07-10'
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - Real Estate
@@ -70,6 +70,8 @@ tags_raw:
 - Real-Estate
 apis: []
 common:
+- url: https://www.dwelly.group/blog
+  type: Blog
 - type: DomainSecurity
   url: security/dwelly-domain-security.yml
 - type: LLMsTxt
