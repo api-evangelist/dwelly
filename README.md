@@ -64,25 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Dwelly (legal entity PROSPIRE TECHNOLOGIES LTD, also trading as Dwelly Group) is a UK-based,
-AI-first lettings and property-management company founded in 2023 by Ilya Drozdov (CEO), Dan
-Lifshits (CPO) and Dmitry Khanukov (CTO). Rather than selling software, Dwelly grows by
-acquiring independent UK lettings agencies and succession-planning their owners out, then
-running the acquired books on its own AI-powered operating platform — automating tenant find,
-banking-grade tenant screening (KYC, Right to Rent, referencing), Direct Debit rent collection
-and reconciliation, maintenance workflows, and lettings compliance.
+Dwelly (legal entity PROSPIRE TECHNOLOGIES LTD, also trading as Dwelly Group) is a UK-based, AI-first lettings and property-management company founded in 2023 by Ilya Drozdov (CEO), Dan Lifshits (CPO) and Dmitry Khanukov (CTO). Rather than selling software, Dwelly grows by acquiring independent UK lettings agencies and succession-planning their owners out, then running the acquired books on its own AI-powered operating platform. That platform automates tenant find (self-service enquiry chat, virtual viewings, verified offers), banking-grade tenant screening (KYC, Right to Rent, referencing), Direct Debit rent collection with automatic reconciliation and arrears handling, maintenance and property management workflows with centralised communications, and continuous lettings compliance. Dwelly is backed by General Catalyst, Begin Capital and S16VC. As of this profile Dwelly publishes no public API, developer portal, SDKs or technical documentation — the platform is operated internally for its own and its acquired agencies' portfolios.
 
-- Website: https://www.dwelly.group/
-- Platform: https://www.dwelly.group/platform
-- GitHub: https://github.com/DwellyGroup (no public repositories)
-- LinkedIn: https://www.linkedin.com/company/dwellygroup/
+**Areas:** Company · Real Estate · Property Management · Lettings · PropTech · Artificial Intelligence · Automation · United Kingdom · Mergers and Acquisitions
 
-Backed by: General Catalyst, Begin Capital, S16VC
+## Dwelly on APIs.io
 
-## API surface
+Everything profiled for Dwelly is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dwelly/](https://apis.io/providers/dwelly/)** — or go straight to one of the APIs or properties below.
 
-**None public.** As of the 2026-07-20 enrichment pass Dwelly publishes no API, developer
-portal, API reference, SDKs, CLI, MCP server, webhooks or `/.well-known/` discovery
-documents, and its GitHub organization has no public repositories. No client libraries exist
-on npm, PyPI, Packagist, RubyGems or crates.io. This repo therefore carries identity and
-probed-security artifacts only.
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Dwelly Domain Security](https://apis.io/security/dwelly/dwelly-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.dwelly.group/)
+- [Blog](https://www.dwelly.group/blog)
+- [Terms of service](https://dwelly.group/docs/tnc.pdf)
+- [Privacy policy](https://dwelly.group/docs/priv.pdf)
+- [GitHub](https://github.com/DwellyGroup)
+
+## API Evangelist rating
+
+**Kin Score 10.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dwelly/](https://apis.io/providers/dwelly/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Dwelly: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dwelly/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
